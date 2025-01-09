@@ -1,6 +1,6 @@
-# Project Title
+# Delta's Enigma
 
-A brief description of the project and its main idea. This section outlines what the project is, its purpose, and its key features.
+This project is a game set on a mysterious planet where players must survive in extreme conditions. They will explore the world, interact with objects, and battle dangerous creatures. The game focuses on high-quality graphics and sound effects to create an immersive atmosphere, while intuitive controls ensure a smooth and engaging experience. Additionally, the game features a progress system that tracks player achievements and helps them develop survival skills as they advance through the adventure.
 
 ### Project Link (if it's large)
 [Project Link](#) — a link to an archive or another resource if the project has a large size.
