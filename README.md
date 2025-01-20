@@ -132,7 +132,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел фокусируется на анимации летающих драконов, их движениях в воздухе и взаимодействиях с другими объектами.
 
-![Flying Dragons](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Dragons.gif" width="830" height="470">
 
 **Implementation Details:**
 - Динамическое управление движением драконов в воздухе
