@@ -104,7 +104,7 @@ A detailed description of how the player moves, runs, jumps, and interacts with 
 
 Explains the input system that allows players to re-map keys for character control to suit their preferences.
 
-![Keymapping System](path_to_image)
+![Keymapping System](https://github.com/4eryemyha/Media/blob/main/PHOTOs/KeyMapping.png)
 
 **Implementation Details:**
 - KeyMapping system setup and structure
