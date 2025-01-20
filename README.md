@@ -11,13 +11,12 @@ This project is a game set on a mysterious planet where players must survive in 
 
 1. [Character](#1-character)  
    &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#11-walking-running-jumping-general-control)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#111-input-system-keymapping-for-key-customization)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#111-character-interface-displaying-health-energy-and-other-parameters)  
+   &nbsp;&nbsp;&nbsp;1.2 [Input System: KeyMapping for Key Customization](#12-input-system-keymapping-for-key-customization)  
+   &nbsp;&nbsp;&nbsp;1.3 [Character Interface: Displaying Health, Energy, and Other Parameters](#13-character-interface-displaying-health-energy-and-other-parameters)  
 
-2. [Animations and AI](#2-animations-and-ai)  
-   &nbsp;&nbsp;&nbsp;2.1 [Procedural Animations](#21-procedural-animations)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 [Flying Dragons](#211-flying-dragons)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 [Spiders](#212-spiders)
+2. [Animations and AI](#2-animations-and-ai)
+   &nbsp;&nbsp;&nbsp;2.1 [Flying Dragons](#21-flying-dragons)  
+   &nbsp;&nbsp;&nbsp;2.2 [Spiders](#22-spiders)
 
 3. [World Interaction](#3-world-interaction)  
    &nbsp;&nbsp;&nbsp;3.1 [Character Interaction with the World via Interfaces](#31-character-interaction-with-the-world-via-interfaces)  
@@ -104,7 +103,7 @@ A detailed description of how the player moves, runs, jumps, and interacts with 
 
 ---
 
-### 1.1.1 &nbsp;&nbsp;Input System: KeyMapping for Key Customization
+### 1.2 &nbsp;Input System: KeyMapping for Key Customization
 
 Explains the input system that allows players to re-map keys for character control to suit their preferences.
 
@@ -117,7 +116,7 @@ Explains the input system that allows players to re-map keys for character contr
 
 ---
 
-### 1.1.2 &nbsp;&nbsp;Character Interface: Displaying Health, Energy, and Other Parameters
+### 1.3 &nbsp;Character Interface: Displaying Health, Energy, and Other Parameters
 
 This section describes the character interface that displays health, energy, and other important metrics.
 
@@ -132,20 +131,7 @@ This section describes the character interface that displays health, energy, and
 
 ## 2. Animations and AI
 
-### 2.1 &nbsp;Procedural Animations
-
-Здесь описывается, как создаются и управляются процедурные анимации для различных типов существ в игре, включая динамическую генерацию движений и взаимодействие с окружающей средой.
-
-![Procedural Animations](path_to_image)
-
-**Implementation Details:**
-- Принципы процедурной анимации для разных существ
-- Реализация изменения анимаций в зависимости от поведения
-- Влияние окружения на анимацию
-
----
-
-### 2.1.1 &nbsp;&nbsp;Flying Dragons
+### 2.1 &nbsp;Flying Dragons
 
 Этот раздел фокусируется на анимации летающих драконов, их движениях в воздухе и взаимодействиях с другими объектами.
 
@@ -158,7 +144,7 @@ This section describes the character interface that displays health, energy, and
 
 ---
 
-### 2.1.2 &nbsp;&nbsp;Spiders
+### 2.2 &nbsp;Spiders
 
 Здесь рассматривается анимация для пауков, их движения по различным поверхностям и реакции на поведение игрока.
 
