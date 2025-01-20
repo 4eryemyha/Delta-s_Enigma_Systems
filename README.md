@@ -2,8 +2,8 @@
 
 This project is a game set on a mysterious planet where players must survive in extreme conditions. They will explore the world, interact with objects, and battle dangerous creatures. The focus is on high-quality graphics, sound effects, and intuitive controls to create an immersive and engaging gameplay experience.
 
-### Project Link (if it's large)
-[Project Link](#) — a link to an archive or another resource if the project has a large size.
+### Project Link
+[Delta's Enigma](#) — a link to an archive or another resource if the project has a large size.
 
 ---
 
@@ -91,7 +91,7 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 ## 1. Character
 
-### 1.1 Walking, Running, Jumping, General Control
+### 1.1 &nbsp;Walking, Running, Jumping, General Control
 
 A detailed description of how the player moves, runs, jumps, and interacts with the world. This includes the mechanics of how walking and running speeds are controlled, how jumping works, and any general movement functionality.
 
@@ -104,7 +104,7 @@ A detailed description of how the player moves, runs, jumps, and interacts with 
 
 ---
 
-#### 1.1.1 Input System: KeyMapping for Key Customization
+### 1.1.1 &nbsp;&nbsp;Input System: KeyMapping for Key Customization
 
 Explains the input system that allows players to re-map keys for character control to suit their preferences.
 
@@ -117,7 +117,7 @@ Explains the input system that allows players to re-map keys for character contr
 
 ---
 
-#### 1.1.2 Character Interface: Displaying Health, Energy, and Other Parameters
+### 1.1.2 &nbsp;&nbsp;Character Interface: Displaying Health, Energy, and Other Parameters
 
 This section describes the character interface that displays health, energy, and other important metrics.
 
@@ -127,162 +127,3 @@ This section describes the character interface that displays health, energy, and
 - Design of health, energy, and other parameter indicators
 - How these parameters update dynamically during gameplay
 - Technical considerations in keeping the interface responsive and readable
-
----
-
-## AI and Animation
-
-### Procedural Animation for Flying Dragons
-
-A brief description of how flying dragons move and behave procedurally.
-
-![Dragon Animation](path_to_image)
-
-**Implementation Details:**
-- Use of procedural animation techniques
-- AI decision-making processes
-- Challenges faced and optimizations
-
-### Procedural Animation for Spiders
-
-A description of spider movement and AI logic.
-
-![Spider Animation](path_to_image)
-
-**Implementation Details:**
-- Bone-based procedural animation
-- AI pathfinding and behavior scripting
-- Performance improvements and debugging
-
----
-
-## Interaction Systems
-
-### Character Interaction with Environment
-
-A description of how the player interacts with objects and interfaces in the game.
-
-![Interaction System](path_to_image)
-
-**Implementation Details:**
-- Implementation of interaction prompts and logic
-- Technologies used for physics-based interaction
-- Difficulties and solutions
-
-### Object Physics and Interaction
-
-A description of how objects with physics respond to player actions.
-
-![Physics Interaction](path_to_image)
-
-**Implementation Details:**
-- Physics engine implementation details
-- Interaction mechanics
-- Edge cases and fixes
-
----
-
-## Base Systems
-
-### Core Base Features
-
-A breakdown of the base systems such as oxygen management, doors, and lighting.
-
-![Base Systems](path_to_image)
-
-**Implementation Details:**
-- Oxygen system tracking and UI integration
-- Door opening logic and interactions
-- Handling of light sources
-
-### Crafting and Research
-
-A description of the crafting and research systems.
-
-![Crafting System](path_to_image)
-
-**Implementation Details:**
-- Crafting recipes and material management
-- Research progression system
-- Balancing challenges
-
----
-
-## Transport and Resource Extraction
-
-### Vehicles and Exploration
-
-A description of the transport systems available in the game.
-
-![Vehicles](path_to_image)
-
-**Implementation Details:**
-- Vehicle physics and handling
-- Interaction with terrain
-- Bug fixes and optimizations
-
-### Mining System
-
-A description of how resources are extracted from the environment.
-
-![Mining System](path_to_image)
-
-**Implementation Details:**
-- Automated drill mechanics
-- Resource spawn and collection
-- Optimizing mining effects
-
----
-
-## Graphics and Materials
-
-### Environment Materials
-
-A breakdown of landscape and environmental materials.
-
-![Landscape Materials](path_to_image)
-
-**Implementation Details:**
-- Procedural terrain materials
-- Foliage and wind interaction
-- Optimization strategies
-
-### Niagara FX and Visual Effects
-
-A description of the visual effects created using Niagara.
-
-![Niagara Effects](path_to_image)
-
-**Implementation Details:**
-- Dissolve effects for objects
-- Cartoon explosion and smoke effects
-- Performance optimization
-
----
-
-## User Interface (UI)
-
-### Main Menu and Settings
-
-A breakdown of the game's user interface, including menus and in-game HUD.
-
-![Main Menu](path_to_image)
-
-**Implementation Details:**
-- Menu layout and navigation
-- Settings and key remapping
-- UX considerations
-
-### Inventory System
-
-A description of the player's inventory and item management system.
-
-![Inventory System](path_to_image)
-
-**Implementation Details:**
-- Inventory UI and item categorization
-- Storage and retrieval logic
-- Challenges with performance
-
----
-
