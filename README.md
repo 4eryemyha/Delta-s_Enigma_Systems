@@ -117,7 +117,7 @@ Explains the input system that allows players to re-map keys for character contr
 
 This section describes the character interface that displays health, energy, and other important metrics.
 
-![Character Interface](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interface.gif" width="830" height="470">
 
 **Implementation Details:**
 - Design of health, energy, and other parameter indicators
