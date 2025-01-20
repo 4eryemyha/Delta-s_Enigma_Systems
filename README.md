@@ -89,7 +89,7 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 # Implemented Systems
 
-## ccc
+## Charcter
 
 ### 1.1 Walking, Running, Jumping, General Control
 
