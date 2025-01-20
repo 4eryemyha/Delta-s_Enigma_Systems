@@ -9,7 +9,7 @@ This project is a game set on a mysterious planet where players must survive in 
 
 # Table of Contents
 
-# [Heading Link](#section-i-want)
+[Heading Link](#section-i-want)
 
 ## Section I Want
 
