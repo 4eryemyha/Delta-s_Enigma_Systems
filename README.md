@@ -14,60 +14,60 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#111-input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#111-character-interface-displaying-health-energy-and-other-parameters)  
 
-2. [Animations and AI](#animations-and-ai)  
-   &nbsp;&nbsp;&nbsp;2.1 [Procedural Animations](#procedural-animations)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 [Flying Dragons](#flying-dragons)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 [Spiders](#spiders)  
+2. [Animations and AI](#2-animations-and-ai)  
+   &nbsp;&nbsp;&nbsp;2.1 [Procedural Animations](#21-procedural-animations)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 [Flying Dragons](#211-flying-dragons)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 [Spiders](#212-spiders)
 
-3. [World Interaction](#world-interaction)  
-   &nbsp;&nbsp;&nbsp;3.1 [Character Interaction with the World via Interfaces](#character-interaction-with-the-world-via-interfaces)  
-   &nbsp;&nbsp;&nbsp;3.2 [Object System with Physics and Interaction](#object-system-with-physics-and-interaction)  
-   &nbsp;&nbsp;&nbsp;3.3 [Drilling Site Location Search System](#drilling-site-location-search-system)  
+3. [World Interaction](#3-world-interaction)  
+   &nbsp;&nbsp;&nbsp;3.1 [Character Interaction with the World via Interfaces](#31-character-interaction-with-the-world-via-interfaces)  
+   &nbsp;&nbsp;&nbsp;3.2 [Object System with Physics and Interaction](#32-object-system-with-physics-and-interaction)  
+   &nbsp;&nbsp;&nbsp;3.3 [Drilling Site Location Search System](#33-drilling-site-location-search-system)
 
-4. [Base](#base)  
-   &nbsp;&nbsp;&nbsp;4.1 [Core Systems](#core-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 [Door System](#door-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 [Rooms](#rooms)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 [Lighting](#lighting)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 [Oxygen System](#oxygen-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.5 [Elevators](#elevators)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.6 [Crafting System](#crafting-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#research-system)  
+4. [Base](#4-base)  
+   &nbsp;&nbsp;&nbsp;4.1 [Core Systems](#41-core-systems)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 [Door System](#411-door-system)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 [Rooms](#412-rooms)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 [Lighting](#413-lighting)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 [Oxygen System](#414-oxygen-system)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.5 [Elevators](#415-elevators)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.6 [Crafting System](#416-crafting-system)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
 
-   &nbsp;&nbsp;&nbsp;4.2 [Additional Elements](#additional-elements)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Object Capture System (Bringing Object to a Connection/Installation Spot)](#object-capture-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 [Base Defense: Logic for Interaction with Invaders (if planned)](#base-defense-logic-for-interaction-with-invaders)  
+   &nbsp;&nbsp;&nbsp;4.2 [Additional Elements](#42-additional-elements)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Object Capture System (Bringing Object to a Connection/Installation Spot)](#421-object-capture-system)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 [Base Defense: Logic for Interaction with Invaders (if planned)](#422-base-defense-logic-for-interaction-with-invaders)
 
-5. [Transport and Resource Extraction](#transport-and-resource-extraction)  
-   &nbsp;&nbsp;&nbsp;5.1 [Vehicles (Transport System, Current Implementation is Broken)](#vehicles-transport-system)  
-   &nbsp;&nbsp;&nbsp;5.2 [Mineral Extraction System](#mineral-extraction-system)  
-   &nbsp;&nbsp;&nbsp;5.3 [Drilling Site Search System](#drilling-site-search-system)  
+5. [Transport and Resource Extraction](#5-transport-and-resource-extraction)  
+   &nbsp;&nbsp;&nbsp;5.1 [Vehicles (Transport System, Current Implementation is Broken)](#51-vehicles-transport-system)  
+   &nbsp;&nbsp;&nbsp;5.2 [Mineral Extraction System](#52-mineral-extraction-system)  
+   &nbsp;&nbsp;&nbsp;5.3 [Drilling Site Search System](#53-drilling-site-search-system) 
 
-6. [Graphics and Materials](#graphics-and-materials)  
-   &nbsp;&nbsp;&nbsp;6.1 [Materials](#materials)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.1 [Landscape (Large Landscape)](#landscape-large-landscape)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.2 [Procedural CellShader](#procedural-cellshader)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.3 [Metallic Materials for CellShader](#metallic-materials-for-cellshader)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.4 [Materials for Foliage with Wind](#materials-for-foliage-with-wind)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Materials for Rocks with Moss](#materials-for-rocks-with-moss)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.6 [Holographic Material](#holographic-material)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.7 [Particle Materials (Various)](#particle-materials-various)  
+6. [Graphics and Materials](#6-graphics-and-materials)  
+   &nbsp;&nbsp;&nbsp;6.1 [Materials](#61-materials)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.1 [Landscape (Large Landscape)](#611-landscape-large-landscape)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.2 [Procedural CellShader](#612-procedural-cellshader)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.3 [Metallic Materials for CellShader](#613-metallic-materials-for-cellshader)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.4 [Materials for Foliage with Wind](#614-materials-for-foliage-with-wind)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Materials for Rocks with Moss](#615-materials-for-rocks-with-moss)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.6 [Holographic Material](#616-holographic-material)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.7 [Particle Materials (Various)](#617-particle-materials-various)  
 
-   &nbsp;&nbsp;&nbsp;6.2 [Niagara System](#niagara-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect for Objects](#dissolve-effect-for-objects)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 [Cartoon Explosion](#cartoon-explosion)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.3 [Cartoon Smoke](#cartoon-smoke)  
+   &nbsp;&nbsp;&nbsp;6.2 [Niagara System](#62-niagara-system)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect for Objects](#621-dissolve-effect-for-objects)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 [Cartoon Explosion](#622-cartoon-explosion)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.3 [Cartoon Smoke](#623-cartoon-smoke)  
 
-   &nbsp;&nbsp;&nbsp;6.3 [Landscape and Environment](#landscape-and-environment)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 [Different Types of Foliage and Grass](#different-types-of-foliage-and-grass)  
+   &nbsp;&nbsp;&nbsp;6.3 [Landscape and Environment](#63-landscape-and-environment)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 [Different Types of Foliage and Grass](#631-different-types-of-foliage-and-grass)
 
-7. [User Interface (UI)](#user-interface-ui)  
-   &nbsp;&nbsp;&nbsp;7.1 [Main Menu](#main-menu)  
-   &nbsp;&nbsp;&nbsp;7.2 [Settings](#settings)  
-   &nbsp;&nbsp;&nbsp;7.3 [Pause](#pause)  
-   &nbsp;&nbsp;&nbsp;7.4 [Inventory](#inventory)  
-   &nbsp;&nbsp;&nbsp;7.5 [Research](#research)  
-   &nbsp;&nbsp;&nbsp;7.6 [Character Interface](#character-interface)
+7. [User Interface (UI)](#7-user-interface-ui)  
+   &nbsp;&nbsp;&nbsp;7.1 [Main Menu](#71-main-menu)  
+   &nbsp;&nbsp;&nbsp;7.2 [Settings](#72-settings)  
+   &nbsp;&nbsp;&nbsp;7.3 [Pause](#73-pause)  
+   &nbsp;&nbsp;&nbsp;7.4 [Inventory](#74-inventory)  
+   &nbsp;&nbsp;&nbsp;7.5 [Research](#75-research)  
+   &nbsp;&nbsp;&nbsp;7.6 [Character Interface](#76-character-interface)
 
 ---
 
@@ -127,3 +127,535 @@ This section describes the character interface that displays health, energy, and
 - Design of health, energy, and other parameter indicators
 - How these parameters update dynamically during gameplay
 - Technical considerations in keeping the interface responsive and readable
+
+---
+
+## 2. Animations and AI
+
+### 2.1 &nbsp;Procedural Animations
+
+Здесь описывается, как создаются и управляются процедурные анимации для различных типов существ в игре, включая динамическую генерацию движений и взаимодействие с окружающей средой.
+
+![Procedural Animations](path_to_image)
+
+**Implementation Details:**
+- Принципы процедурной анимации для разных существ
+- Реализация изменения анимаций в зависимости от поведения
+- Влияние окружения на анимацию
+
+---
+
+### 2.1.1 &nbsp;&nbsp;Flying Dragons
+
+Этот раздел фокусируется на анимации летающих драконов, их движениях в воздухе и взаимодействиях с другими объектами.
+
+![Flying Dragons](path_to_image)
+
+**Implementation Details:**
+- Динамическое управление движением драконов в воздухе
+- Применение физики для реалистичных полетов
+- Взаимодействие с окружающим миром
+
+---
+
+### 2.1.2 &nbsp;&nbsp;Spiders
+
+Здесь рассматривается анимация для пауков, их движения по различным поверхностям и реакции на поведение игрока.
+
+![Spiders](path_to_image)
+
+**Implementation Details:**
+- Специфика анимаций для многоногих существ
+- Реализация лазания по вертикальным поверхностям
+- Интерактивность с игроком и миром
+
+---
+
+## 3. World Interaction
+
+### 3.1 &nbsp;Character Interaction with the World via Interfaces
+
+В этом разделе рассматриваются способы, которыми персонаж взаимодействует с миром игры через различные интерфейсы, включая взаимодействие с объектами, использование предметов и активацию механизмов.
+
+![Character Interaction](path_to_image)
+
+**Implementation Details:**
+- Способы взаимодействия персонажа с миром
+- Реализация интерфейсов для различных типов объектов
+- Технические аспекты обработки пользовательского ввода и обратной связи
+
+---
+
+### 3.2 &nbsp;&nbsp;Object System with Physics and Interaction
+
+Здесь описывается система объектов в игре с физикой и возможностью взаимодействия с ними. Как объекты реагируют на физические силы и как они взаимодействуют с персонажами и другими объектами.
+
+![Object System](path_to_image)
+
+**Implementation Details:**
+- Реализация системы физики для объектов
+- Детали взаимодействия объектов с персонажами и окружающей средой
+- Проблемы при учете взаимодействия с разными типами объектов
+
+---
+
+### 3.3 &nbsp;&nbsp;Drilling Site Location Search System
+
+Этот раздел посвящен системе поиска месторождений для бурения в игровом мире. Описание алгоритмов и интерфейсов для поиска и выбора подходящих локаций.
+
+![Drilling Site Search](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы поиска локаций для бурения
+- Взаимодействие с картой мира и географическими данными
+- Оптимизация поиска для повышения производительности
+
+---
+
+## 4. Base
+
+### 4.1 &nbsp;Core Systems
+
+Этот раздел описывает основные системы, управляющие работой базы, включая все ключевые механизмы, необходимые для функционирования базы и взаимодействия с окружающей средой.
+
+![Core Systems](path_to_image)
+
+**Implementation Details:**
+- Основные системы базы и их взаимодействие
+- Механизмы управления и взаимодействия с объектами
+- Особенности настройки и оптимизации
+
+---
+
+### 4.1.1 &nbsp;&nbsp;Door System
+
+Здесь рассматривается система дверей, включая их открытие, закрытие и взаимодействие с игроком и окружающей средой.
+
+![Door System](path_to_image)
+
+**Implementation Details:**
+- Реализация механизмов открытия и закрытия дверей
+- Интерактивность дверей с персонажем
+- Взаимодействие с другими системами
+
+---
+
+### 4.1.2 &nbsp;&nbsp;Rooms
+
+Этот раздел описывает систему комнат на базе, их организацию и взаимодействие с другими объектами и системами.
+
+![Rooms](path_to_image)
+
+**Implementation Details:**
+- Конфигурация комнат и объектов внутри них
+- Принципы динамического изменения комнат
+- Система обеспечения функциональности каждой комнаты
+
+---
+
+### 4.1.3 &nbsp;&nbsp;Lighting
+
+Здесь описывается система освещения на базе, которая управляет уровнем яркости, состоянием и режимами освещения в разных областях базы.
+
+![Lighting](path_to_image)
+
+**Implementation Details:**
+- Управление освещением в различных частях базы
+- Реализация динамических эффектов освещения
+- Оптимизация для производительности
+
+---
+
+### 4.1.4 &nbsp;&nbsp;Oxygen System
+
+Этот раздел фокусируется на системе кислорода, необходимой для поддержания жизни на базе. Объясняются процессы, регулирующие уровень кислорода и его распределение.
+
+![Oxygen System](path_to_image)
+
+**Implementation Details:**
+- Управление уровнем кислорода
+- Система мониторинга и контроля
+- Взаимодействие с другими жизненно важными системами
+
+---
+
+### 4.1.5 &nbsp;&nbsp;Elevators
+
+Здесь описывается система лифтов, которая управляет перемещением между различными уровнями базы.
+
+![Elevators](path_to_image)
+
+**Implementation Details:**
+- Принципы работы лифтов и управления ими
+- Взаимодействие с другими системами
+- Особенности анимации и механизма лифтов
+
+---
+
+### 4.1.6 &nbsp;&nbsp;Crafting System
+
+Этот раздел посвящен системе крафта, где игроки могут создавать новые объекты, улучшать предметы и собирать ресурсы.
+
+![Crafting System](path_to_image)
+
+**Implementation Details:**
+- Механизмы создания и улучшения объектов
+- Система ресурсов и их использование
+- Балансировка и настройки интерфейса крафта
+
+---
+
+### 4.1.7 &nbsp;&nbsp;Research System
+
+Здесь рассматривается система исследований, которая позволяет игрокам открывать новые технологии и улучшать базу.
+
+![Research System](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы и интерфейс для исследований
+- Как исследования влияют на развитие базы
+- Интеграция с другими системами
+
+---
+
+### 4.2 &nbsp;Additional Elements
+
+Этот раздел описывает дополнительные элементы, которые дополняют основные системы базы и предлагают новые функции и механизмы взаимодействия.
+
+![Additional Elements](path_to_image)
+
+**Implementation Details:**
+- Новые элементы, которые расширяют функциональность базы
+- Как эти элементы взаимодействуют с основными системами
+- Возможности настройки и оптимизации
+
+---
+
+### 4.2.1 &nbsp;&nbsp;Object Capture System (Bringing Object to a Connection/Installation Spot)
+
+Здесь описывается система захвата объектов и их перемещения в нужные места для подключения или установки.
+
+![Object Capture System](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы перемещения объектов в нужные места
+- Принципы захвата и установки объектов
+- Взаимодействие с другими системами базы
+
+---
+
+### 4.2.2 &nbsp;&nbsp;Base Defense: Logic for Interaction with Invaders (if planned)
+
+Этот раздел объясняет логику обороны базы и взаимодействие с возможными захватчиками, если эта функция предусмотрена в игре.
+
+![Base Defense](path_to_image)
+
+**Implementation Details:**
+- Логика защиты базы от захватчиков
+- Как система обороны взаимодействует с другими элементами базы
+- Технические аспекты реализации защиты
+
+---
+
+## 5. Transport and Resource Extraction
+
+### 5.1 &nbsp;Vehicles (Transport System, Current Implementation is Broken)
+
+Этот раздел описывает систему транспортных средств, которая используется для перемещения ресурсов и персонажей по игровому миру. Также рассматриваются проблемы, возникшие в текущей реализации этой системы.
+
+![Vehicles](path_to_image)
+
+**Implementation Details:**
+- Механизмы управления транспортными средствами
+- Текущие проблемы в реализации транспортной системы
+- Планы по улучшению и исправлению багов
+
+---
+
+### 5.2 &nbsp;&nbsp;Mineral Extraction System
+
+Здесь описывается система добычи минералов, включая способы сбора ресурсов, их переработку и использование в дальнейшем.
+
+![Mineral Extraction](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы добычи минералов
+- Взаимодействие с инструментами и объектами для добычи
+- Система переработки и использования добытых материалов
+
+---
+
+### 5.3 &nbsp;&nbsp;Drilling Site Search System
+
+Этот раздел посвящен системе поиска месторождений для бурения. Описание алгоритмов и интерфейсов для поиска и выбора лучших мест для бурения.
+
+![Drilling Site Search](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы поиска мест для бурения
+- Взаимодействие с картой мира и географическими данными
+- Оптимизация для повышения производительности
+
+---
+
+## 6. Graphics and Materials
+
+### 6.1 &nbsp;Materials
+
+Этот раздел описывает материалы, используемые в игре, включая различные текстуры и шейдеры для различных объектов в мире игры.
+
+![Materials](path_to_image)
+
+**Implementation Details:**
+- Разнообразие материалов для различных объектов
+- Спецификации текстур и шейдеров
+- Принципы применения материалов на различных объектах
+
+---
+
+### 6.1.1 &nbsp;&nbsp;Landscape (Large Landscape)
+
+Здесь обсуждается использование материалов для создания больших ландшафтов в игре, включая текстуры и особенности их наложения на большие участки.
+
+![Landscape](path_to_image)
+
+**Implementation Details:**
+- Технологии создания ландшафтов
+- Использование текстур и материалов на больших пространствах
+- Оптимизация для производительности
+
+---
+
+### 6.1.2 &nbsp;&nbsp;Procedural CellShader
+
+Этот раздел посвящен процедурному шейдеру, который используется для создания визуального стиля, похожего на мультфильмы, путем обработки текстур и освещения.
+
+![Procedural CellShader](path_to_image)
+
+**Implementation Details:**
+- Разработка и применение процедурного шейдера
+- Влияние на внешний вид объектов
+- Оптимизация и производительность
+
+---
+
+### 6.1.3 &nbsp;&nbsp;Metallic Materials for CellShader
+
+Здесь рассматриваются металлические материалы, которые применяются в шейдерах для создания эффекта блеска и отражений.
+
+![Metallic Materials](path_to_image)
+
+**Implementation Details:**
+- Разработка металлических материалов для шейдера
+- Взаимодействие с освещением и отражениями
+- Применение в различных объектах
+
+---
+
+### 6.1.4 &nbsp;&nbsp;Materials for Foliage with Wind
+
+Этот раздел описывает материалы для растительности, которые реагируют на ветер, создавая эффект движения листвы и травы.
+
+![Materials for Foliage with Wind](path_to_image)
+
+**Implementation Details:**
+- Реализация материалов для растительности с учетом ветра
+- Использование шейдеров для имитации движения
+- Технические аспекты и производительность
+
+---
+
+### 6.1.5 &nbsp;&nbsp;Materials for Rocks with Moss
+
+Здесь обсуждается создание материалов для камней с мхом, включая особенности текстур и визуальные эффекты.
+
+![Materials for Rocks with Moss](path_to_image)
+
+**Implementation Details:**
+- Создание и применение материалов для камней
+- Взаимодействие с окружающей средой и растительностью
+- Текстуры и эффекты для реалистичного вида
+
+---
+
+### 6.1.6 &nbsp;&nbsp;Holographic Material
+
+Этот раздел объясняет, как создаются голографические материалы, которые могут быть использованы для создания уникальных объектов и эффектов в игре.
+
+![Holographic Material](path_to_image)
+
+**Implementation Details:**
+- Применение голографических эффектов
+- Реализация шейдеров и текстур
+- Взаимодействие с другими объектами в игре
+
+---
+
+### 6.1.7 &nbsp;&nbsp;Particle Materials (Various)
+
+Здесь описываются различные материалы для частиц, используемые в эффектах, таких как дым, огонь и другие визуальные эффекты.
+
+![Particle Materials](path_to_image)
+
+**Implementation Details:**
+- Разнообразие материалов для частиц
+- Технологии создания эффектов частиц
+- Применение материалов в разных частях игры
+
+---
+
+### 6.2 &nbsp;Niagara System
+
+В этом разделе рассматривается система Niagara, которая используется для создания визуальных эффектов, таких как дым, огонь, взрывы и другие динамичные элементы.
+
+![Niagara System](path_to_image)
+
+**Implementation Details:**
+- Принципы работы системы Niagara
+- Разработка и настройка визуальных эффектов
+- Применение Niagara для создания эффектов частиц
+
+---
+
+### 6.2.1 &nbsp;&nbsp;Dissolve Effect for Objects
+
+Здесь объясняется, как создаются эффекты растворения для объектов, которые могут исчезать или растворяться по мере взаимодействия с ними.
+
+![Dissolve Effect](path_to_image)
+
+**Implementation Details:**
+- Технологии и шейдеры для эффекта растворения
+- Реализация с учетом освещения и физики
+- Применение в различных частях игры
+
+---
+
+### 6.2.2 &nbsp;&nbsp;Cartoon Explosion
+
+Этот раздел описывает создание мультяшных взрывов с использованием системы Niagara и других визуальных эффектов.
+
+![Cartoon Explosion](path_to_image)
+
+**Implementation Details:**
+- Разработка мультяшных взрывов и их анимация
+- Применение системы Niagara для создания эффектов
+- Влияние на игровой процесс и визуальные эффекты
+
+---
+
+### 6.2.3 &nbsp;&nbsp;Cartoon Smoke
+
+Здесь рассматривается создание мультяшного дыма с помощью Niagara, который используется в различных ситуациях, таких как взрывы или огонь.
+
+![Cartoon Smoke](path_to_image)
+
+**Implementation Details:**
+- Принципы создания мультяшного дыма
+- Реализация с учетом взаимодействия с другими эффектами
+- Применение в различных частях игры
+
+---
+
+### 6.3 &nbsp;Landscape and Environment
+
+Этот раздел описывает создание ландшафта и окружающей среды, включая текстуры, модели и материалы, которые используются для имитации различных природных элементов.
+
+![Landscape and Environment](path_to_image)
+
+**Implementation Details:**
+- Разработка и создание ландшафта
+- Применение материалов и текстур для различных природных объектов
+- Оптимизация окружения для производительности
+
+---
+
+### 6.3.1 &nbsp;&nbsp;Different Types of Foliage and Grass
+
+Здесь обсуждаются различные виды растительности, такие как деревья, кустарники и трава, и материалы, которые используются для их создания и анимации.
+
+![Different Types of Foliage and Grass](path_to_image)
+
+**Implementation Details:**
+- Разнообразие растительности и типов травы
+- Применение шейдеров для растительности
+- Взаимодействие с окружающим миром
+
+---
+
+## 7. User Interface (UI)
+
+### 7.1 &nbsp;Main Menu
+
+Этот раздел описывает главный экран меню игры, который служит центральным пунктом для навигации по различным функциям игры.
+
+![Main Menu](path_to_image)
+
+**Implementation Details:**
+- Структура и элементы главного меню
+- Взаимодействие с различными разделами игры
+- Анимация и переходы
+
+---
+
+### 7.2 &nbsp;Settings
+
+Здесь описывается меню настроек, которое позволяет игрокам настроить параметры игры, такие как графика, звук и управление.
+
+![Settings](path_to_image)
+
+**Implementation Details:**
+- Опции настройки графики, звука и управления
+- Использование конфигурационных файлов
+- Влияние изменений на игровой процесс
+
+---
+
+### 7.3 &nbsp;Pause
+
+Этот раздел посвящен экрану паузы, который позволяет игроку остановить игру и получить доступ к различным опциям.
+
+![Pause](path_to_image)
+
+**Implementation Details:**
+- Взаимодействие с игровой логикой во время паузы
+- Доступные опции в меню паузы
+- Влияние на производительность игры
+
+---
+
+### 7.4 &nbsp;Inventory
+
+Здесь рассматривается система инвентаря, которая позволяет игрокам собирать и управлять предметами внутри игры.
+
+![Inventory](path_to_image)
+
+**Implementation Details:**
+- Структура и интерфейс инвентаря
+- Система хранения и сортировки предметов
+- Взаимодействие с другими системами игры
+
+---
+
+### 7.5 &nbsp;Research
+
+Этот раздел описывает систему исследования, которая позволяет игрокам развивать новые технологии и возможности в игре.
+
+![Research](path_to_image)
+
+**Implementation Details:**
+- Механизм исследования и разработки технологий
+- Влияние на прогресс в игре
+- Структура и интерфейс системы исследования
+
+---
+
+### 7.6 &nbsp;Character Interface
+
+Здесь обсуждается интерфейс персонажа, который отображает здоровье, энергию и другие параметры, важные для игрового процесса.
+
+![Character Interface](path_to_image)
+
+**Implementation Details:**
+- Отображение статуса персонажа
+- Обновление и отображение параметров в реальном времени
+- Технические детали интерфейса
