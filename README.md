@@ -11,7 +11,7 @@ This project is a game set on a mysterious planet where players must survive in 
 
 # [Heading Link](#section-i-want)
 
-## [Section I Want] 
+## Section I Want
 
 
 1. [Character](#сharacter)  
