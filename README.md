@@ -9,7 +9,7 @@ This project is a game set on a mysterious planet where players must survive in 
 
 # Table of Contents
 
-1. [Character](#сharacter)  
+[Character](#сharacter)  
    &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#walking-running-jumping-general-control)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#character-interface-displaying-health-energy-and-other-parameters)  
