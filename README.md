@@ -14,7 +14,7 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;1.2 [Input System: KeyMapping for Key Customization](#12-input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;1.3 [Character Interface: Displaying Health, Energy, and Other Parameters](#13-character-interface-displaying-health-energy-and-other-parameters)  
 
-2. [Animations and AI](#2-animations-and-ai)
+2. [Animations and AI](#2-animations-and-ai)  
    &nbsp;&nbsp;&nbsp;2.1 [Flying Dragons](#21-flying-dragons)  
    &nbsp;&nbsp;&nbsp;2.2 [Spiders](#22-spiders)
 
