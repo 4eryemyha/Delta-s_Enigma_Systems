@@ -9,7 +9,7 @@ This project is a game set on a mysterious planet where players must survive in 
 
 # Table of Contents
 
-1. [Character](#character)  
+1. [Character](#Сharacter)  
    &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#walking-running-jumping-general-control)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#character-interface-displaying-health-energy-and-other-parameters)  
@@ -89,18 +89,44 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 # Implemented Systems
 
-## Character Systems
+## 1. Character
 
-### Character Movement and Control
+### 1.1 Walking, Running, Jumping, General Control
 
-A detailed description of how the player moves, jumps, and interacts with the world.
+A detailed description of how the player moves, runs, jumps, and interacts with the world. This includes the mechanics of how walking and running speeds are controlled, how jumping works, and any general movement functionality.
 
 ![Character Movement](path_to_image)
 
 **Implementation Details:**
-- Control system with key mapping
-- Tools and technologies used
-- Challenges and solutions
+- Character control system with defined key mappings
+- Response to user inputs and environmental factors
+- System for speed adjustment and transition between movement states
+
+---
+
+### 1.1.1 Input System: KeyMapping for Key Customization
+
+Explains the input system that allows players to re-map keys for character control to suit their preferences.
+
+![Keymapping System](path_to_image)
+
+**Implementation Details:**
+- KeyMapping system setup and structure
+- Configuration files and user interface for key customization
+- Challenges encountered during implementation
+
+---
+
+### 1.1.2 Character Interface: Displaying Health, Energy, and Other Parameters
+
+This section describes the character interface that displays health, energy, and other important metrics.
+
+![Character Interface](path_to_image)
+
+**Implementation Details:**
+- Design of health, energy, and other parameter indicators
+- How these parameters update dynamically during gameplay
+- Technical considerations in keeping the interface responsive and readable
 
 ---
 
