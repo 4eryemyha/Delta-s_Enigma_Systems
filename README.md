@@ -10,9 +10,9 @@ This project is a game set on a mysterious planet where players must survive in 
 # Table of Contents
 
 1. [Character](#1-character)  
-   &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#walking-running-jumping-general-control)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#input-system-keymapping-for-key-customization)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#character-interface-displaying-health-energy-and-other-parameters)  
+   &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#11-walking-running-jumping-general-control)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#111-input-system-keymapping-for-key-customization)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#111-character-interface-displaying-health-energy-and-other-parameters)  
 
 2. [Animations and AI](#animations-and-ai)  
    &nbsp;&nbsp;&nbsp;2.1 [Procedural Animations](#procedural-animations)  
