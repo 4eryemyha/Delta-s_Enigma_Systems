@@ -91,7 +91,7 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 A detailed description of how the player moves, runs, jumps, and interacts with the world. This includes the mechanics of how walking and running speeds are controlled, how jumping works, and any general movement functionality.
 
-![Character Movement](https://i.postimg.cc/xCyy7N7s/803c441f693d7f6deed84a8c3a4c4202.gif)
+![Character Movement](https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif)
 
 **Implementation Details:**
 - Character control system with defined key mappings
