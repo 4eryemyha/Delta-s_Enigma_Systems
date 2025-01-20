@@ -145,7 +145,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматривается анимация для пауков, их движения по различным поверхностям и реакции на поведение игрока.
 
-![Spiders](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Spiders.gif" width="830" height="470">
 
 **Implementation Details:**
 - Специфика анимаций для многоногих существ
