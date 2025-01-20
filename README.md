@@ -10,12 +10,14 @@ This project is a game set on a mysterious planet where players must survive in 
 # Table of Contents
 
 1. [Project Description](#project-description)
-2. [Implemented Mechanics](#implemented-mechanics)
-   1. [Mechanic Name 1](#mechanic-name-1)
-   2. [Mechanic Name 2](#mechanic-name-2)
-3. [Additional Features](#additional-features)
-   1. [Feature Name 1](#feature-name-1)
-   2. [Feature Name 2](#feature-name-2)
+2. [Implemented Systems](#implemented-systems)
+   1. [Character Systems](#character-systems)
+   2. [AI and Animation](#ai-and-animation)
+   3. [Interaction Systems](#interaction-systems)
+   4. [Base Systems](#base-systems)
+   5. [Transport and Resource Extraction](#transport-and-resource-extraction)
+   6. [Graphics and Materials](#graphics-and-materials)
+   7. [User Interface (UI)](#user-interface-ui)
 
 ---
 
@@ -35,54 +37,176 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 ---
 
-# Implemented Mechanics
+# Implemented Systems
 
-### Mechanic Name 1
+## Character Systems
 
-A brief description of the game mechanic, its purpose, and its significance to the game.
+### Character Movement and Control
 
-![Mechanic Description 1](path_to_image)
+A detailed description of how the player moves, jumps, and interacts with the world.
+
+![Character Movement](path_to_image)
 
 **Implementation Details:**
-- How this mechanic was implemented
+- Control system with key mapping
 - Tools and technologies used
-- Challenges and difficulties encountered
-
-### Mechanic Name 2
-
-A brief description of the second game mechanic.
-
-![Mechanic Description 2](path_to_image)
-
-**Implementation Details:**
-- Description of the development process of this mechanic
-- Technologies and methods used
-- Problems and their solutions
+- Challenges and solutions
 
 ---
 
-# Additional Features
+## AI and Animation
 
-### Feature Name 1
+### Procedural Animation for Flying Dragons
 
-Description of an additional aspect of the project that was also important.
+A brief description of how flying dragons move and behave procedurally.
 
-![Feature Description 1](path_to_image)
-
-**Implementation Details:**
-- Details of how this feature was implemented
-- Tools and approaches used
-- Possible issues and how they were resolved
-
-### Feature Name 2
-
-Description of the second additional aspect of the project.
-
-![Feature Description 2](path_to_image)
+![Dragon Animation](path_to_image)
 
 **Implementation Details:**
-- Description of the integration process
-- Applied technologies and solutions
-- Challenges and their resolutions
+- Use of procedural animation techniques
+- AI decision-making processes
+- Challenges faced and optimizations
+
+### Procedural Animation for Spiders
+
+A description of spider movement and AI logic.
+
+![Spider Animation](path_to_image)
+
+**Implementation Details:**
+- Bone-based procedural animation
+- AI pathfinding and behavior scripting
+- Performance improvements and debugging
 
 ---
+
+## Interaction Systems
+
+### Character Interaction with Environment
+
+A description of how the player interacts with objects and interfaces in the game.
+
+![Interaction System](path_to_image)
+
+**Implementation Details:**
+- Implementation of interaction prompts and logic
+- Technologies used for physics-based interaction
+- Difficulties and solutions
+
+### Object Physics and Interaction
+
+A description of how objects with physics respond to player actions.
+
+![Physics Interaction](path_to_image)
+
+**Implementation Details:**
+- Physics engine implementation details
+- Interaction mechanics
+- Edge cases and fixes
+
+---
+
+## Base Systems
+
+### Core Base Features
+
+A breakdown of the base systems such as oxygen management, doors, and lighting.
+
+![Base Systems](path_to_image)
+
+**Implementation Details:**
+- Oxygen system tracking and UI integration
+- Door opening logic and interactions
+- Handling of light sources
+
+### Crafting and Research
+
+A description of the crafting and research systems.
+
+![Crafting System](path_to_image)
+
+**Implementation Details:**
+- Crafting recipes and material management
+- Research progression system
+- Balancing challenges
+
+---
+
+## Transport and Resource Extraction
+
+### Vehicles and Exploration
+
+A description of the transport systems available in the game.
+
+![Vehicles](path_to_image)
+
+**Implementation Details:**
+- Vehicle physics and handling
+- Interaction with terrain
+- Bug fixes and optimizations
+
+### Mining System
+
+A description of how resources are extracted from the environment.
+
+![Mining System](path_to_image)
+
+**Implementation Details:**
+- Automated drill mechanics
+- Resource spawn and collection
+- Optimizing mining effects
+
+---
+
+## Graphics and Materials
+
+### Environment Materials
+
+A breakdown of landscape and environmental materials.
+
+![Landscape Materials](path_to_image)
+
+**Implementation Details:**
+- Procedural terrain materials
+- Foliage and wind interaction
+- Optimization strategies
+
+### Niagara FX and Visual Effects
+
+A description of the visual effects created using Niagara.
+
+![Niagara Effects](path_to_image)
+
+**Implementation Details:**
+- Dissolve effects for objects
+- Cartoon explosion and smoke effects
+- Performance optimization
+
+---
+
+## User Interface (UI)
+
+### Main Menu and Settings
+
+A breakdown of the game's user interface, including menus and in-game HUD.
+
+![Main Menu](path_to_image)
+
+**Implementation Details:**
+- Menu layout and navigation
+- Settings and key remapping
+- UX considerations
+
+### Inventory System
+
+A description of the player's inventory and item management system.
+
+![Inventory System](path_to_image)
+
+**Implementation Details:**
+- Inventory UI and item categorization
+- Storage and retrieval logic
+- Challenges with performance
+
+---
+
