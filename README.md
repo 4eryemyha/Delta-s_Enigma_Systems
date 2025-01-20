@@ -104,7 +104,7 @@ A detailed description of how the player moves, runs, jumps, and interacts with 
 
 ---
 
-### 1.1.1 Input System: KeyMapping for Key Customization
+#### 1.1.1 Input System: KeyMapping for Key Customization
 
 Explains the input system that allows players to re-map keys for character control to suit their preferences.
 
@@ -117,7 +117,7 @@ Explains the input system that allows players to re-map keys for character contr
 
 ---
 
-### 1.1.2 Character Interface: Displaying Health, Energy, and Other Parameters
+#### 1.1.2 Character Interface: Displaying Health, Energy, and Other Parameters
 
 This section describes the character interface that displays health, energy, and other important metrics.
 
