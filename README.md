@@ -14,7 +14,7 @@ This project is a game set on a mysterious planet where players must survive in 
 ## Section I Want
 
 
-1. [Character](#сharacter)  
+1. [Character2](#сharacter)  
    &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#walking-running-jumping-general-control)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 [Input System: KeyMapping for Key Customization](#input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 [Character Interface: Displaying Health, Energy, and Other Parameters](#character-interface-displaying-health-energy-and-other-parameters)  
