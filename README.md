@@ -91,7 +91,7 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 A detailed description of how the player moves, runs, jumps, and interacts with the world. This includes the mechanics of how walking and running speeds are controlled, how jumping works, and any general movement functionality.
 
-![Character Movement](https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif" width="820" height="464">
 
 **Implementation Details:**
 - Character control system with defined key mappings
@@ -104,7 +104,7 @@ A detailed description of how the player moves, runs, jumps, and interacts with 
 
 Explains the input system that allows players to re-map keys for character control to suit their preferences.
 
-![Keymapping System](https://github.com/4eryemyha/Media/blob/main/PHOTOs/KeyMapping.png)
+<img src="https://github.com/4eryemyha/Media/blob/main/PHOTOs/KeyMapping.png" width="200" height="200">
 
 **Implementation Details:**
 - KeyMapping system setup and structure
