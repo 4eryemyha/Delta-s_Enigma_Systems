@@ -32,7 +32,6 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.5 [Elevators](#415-elevators)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.6 [Crafting System](#416-crafting-system)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
-
    &nbsp;&nbsp;&nbsp;4.2 [Additional Elements](#42-additional-elements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Object Capture System (Bringing Object to a Connection/Installation Spot)](#421-object-capture-system)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 [Base Defense: Logic for Interaction with Invaders (if planned)](#422-base-defense-logic-for-interaction-with-invaders)
@@ -51,12 +50,10 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Materials for Rocks with Moss](#615-materials-for-rocks-with-moss)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.6 [Holographic Material](#616-holographic-material)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.7 [Particle Materials (Various)](#617-particle-materials-various)  
-
    &nbsp;&nbsp;&nbsp;6.2 [Niagara System](#62-niagara-system)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect for Objects](#621-dissolve-effect-for-objects)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 [Cartoon Explosion](#622-cartoon-explosion)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.3 [Cartoon Smoke](#623-cartoon-smoke)  
-
    &nbsp;&nbsp;&nbsp;6.3 [Landscape and Environment](#63-landscape-and-environment)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 [Different Types of Foliage and Grass](#631-different-types-of-foliage-and-grass)
 
