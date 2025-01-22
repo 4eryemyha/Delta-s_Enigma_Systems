@@ -276,7 +276,7 @@ This section describes the character interface that displays health, energy, and
 ---
 
 ### 4.2 &nbsp;Additional Elements
-
+---
 ### 4.2.1 &nbsp;&nbsp;Object Capture System (Bringing Object to a Connection/Installation Spot)
 
 Здесь описывается система захвата объектов и их перемещения в нужные места для подключения или установки.
