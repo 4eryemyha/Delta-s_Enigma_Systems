@@ -186,7 +186,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматривается система дверей, включая их открытие, закрытие и взаимодействие с игроком и окружающей средой.
 
-![Door System](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Door%20System.gif" width="830" height="470">
 
 **Implementation Details:**
 - Реализация механизмов открытия и закрытия дверей
