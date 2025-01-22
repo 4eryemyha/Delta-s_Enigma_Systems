@@ -199,7 +199,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел описывает систему комнат на базе, их организацию и взаимодействие с другими объектами и системами.
 
-![Rooms](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Rooms.gif" width="830" height="470">
 
 **Implementation Details:**
 - Конфигурация комнат и объектов внутри них
@@ -212,7 +212,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь описывается система освещения на базе, которая управляет уровнем яркости, состоянием и режимами освещения в разных областях базы.
 
-![Lighting](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Light.gif" width="830" height="470">
 
 **Implementation Details:**
 - Управление освещением в различных частях базы
@@ -225,7 +225,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел фокусируется на системе кислорода, необходимой для поддержания жизни на базе. Объясняются процессы, регулирующие уровень кислорода и его распределение.
 
-![Oxygen System](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Oxygen%20System.gif" width="830" height="470">
 
 **Implementation Details:**
 - Управление уровнем кислорода
