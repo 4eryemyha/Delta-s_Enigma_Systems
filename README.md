@@ -21,7 +21,6 @@ This project is a game set on a mysterious planet where players must survive in 
 3. [World Interaction](#3-world-interaction)  
    &nbsp;&nbsp;&nbsp;3.1 [Character Interaction with the World via Interfaces](#31-character-interaction-with-the-world-via-interfaces)  
    &nbsp;&nbsp;&nbsp;3.2 [Object System with Physics and Interaction](#32-object-system-with-physics-and-interaction)  
-   &nbsp;&nbsp;&nbsp;3.3 [Drilling Site Location Search System](#33-drilling-site-location-search-system)
 
 4. [Base](#4-base)  
    &nbsp;&nbsp;&nbsp;4.1 [Core Systems](#41-core-systems)  
@@ -160,7 +159,7 @@ This section describes the character interface that displays health, energy, and
 
 В этом разделе рассматриваются способы, которыми персонаж взаимодействует с миром игры через различные интерфейсы, включая взаимодействие с объектами, использование предметов и активацию механизмов.
 
-![Character Interaction](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interaction%20with%20the%20World.gif" width="830" height="470">
 
 **Implementation Details:**
 - Способы взаимодействия персонажа с миром
@@ -179,19 +178,6 @@ This section describes the character interface that displays health, energy, and
 - Реализация системы физики для объектов
 - Детали взаимодействия объектов с персонажами и окружающей средой
 - Проблемы при учете взаимодействия с разными типами объектов
-
----
-
-### 3.3 &nbsp;&nbsp;Drilling Site Location Search System
-
-Этот раздел посвящен системе поиска месторождений для бурения в игровом мире. Описание алгоритмов и интерфейсов для поиска и выбора подходящих локаций.
-
-![Drilling Site Search](path_to_image)
-
-**Implementation Details:**
-- Алгоритмы поиска локаций для бурения
-- Взаимодействие с картой мира и географическими данными
-- Оптимизация поиска для повышения производительности
 
 ---
 
