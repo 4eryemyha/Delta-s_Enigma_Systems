@@ -33,7 +33,6 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
    &nbsp;&nbsp;&nbsp;4.2 [Additional Elements](#42-additional-elements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Object Capture System (Bringing Object to a Connection/Installation Spot)](#421-object-capture-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 [Base Defense: Logic for Interaction with Invaders (if planned)](#422-base-defense-logic-for-interaction-with-invaders)
 
 5. [Transport and Resource Extraction](#5-transport-and-resource-extraction)  
    &nbsp;&nbsp;&nbsp;5.1 [Vehicles (Transport System, Current Implementation is Broken)](#51-vehicles-transport-system)  
@@ -185,17 +184,6 @@ This section describes the character interface that displays health, energy, and
 
 ### 4.1 &nbsp;Core Systems
 
-Этот раздел описывает основные системы, управляющие работой базы, включая все ключевые механизмы, необходимые для функционирования базы и взаимодействия с окружающей средой.
-
-![Core Systems](path_to_image)
-
-**Implementation Details:**
-- Основные системы базы и их взаимодействие
-- Механизмы управления и взаимодействия с объектами
-- Особенности настройки и оптимизации
-
----
-
 ### 4.1.1 &nbsp;&nbsp;Door System
 
 Здесь рассматривается система дверей, включая их открытие, закрытие и взаимодействие с игроком и окружающей средой.
@@ -289,17 +277,6 @@ This section describes the character interface that displays health, energy, and
 
 ### 4.2 &nbsp;Additional Elements
 
-Этот раздел описывает дополнительные элементы, которые дополняют основные системы базы и предлагают новые функции и механизмы взаимодействия.
-
-![Additional Elements](path_to_image)
-
-**Implementation Details:**
-- Новые элементы, которые расширяют функциональность базы
-- Как эти элементы взаимодействуют с основными системами
-- Возможности настройки и оптимизации
-
----
-
 ### 4.2.1 &nbsp;&nbsp;Object Capture System (Bringing Object to a Connection/Installation Spot)
 
 Здесь описывается система захвата объектов и их перемещения в нужные места для подключения или установки.
@@ -310,19 +287,6 @@ This section describes the character interface that displays health, energy, and
 - Алгоритмы перемещения объектов в нужные места
 - Принципы захвата и установки объектов
 - Взаимодействие с другими системами базы
-
----
-
-### 4.2.2 &nbsp;&nbsp;Base Defense: Logic for Interaction with Invaders (if planned)
-
-Этот раздел объясняет логику обороны базы и взаимодействие с возможными захватчиками, если эта функция предусмотрена в игре.
-
-![Base Defense](path_to_image)
-
-**Implementation Details:**
-- Логика защиты базы от захватчиков
-- Как система обороны взаимодействует с другими элементами базы
-- Технические аспекты реализации защиты
 
 ---
 
