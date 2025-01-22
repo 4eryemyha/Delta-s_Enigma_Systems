@@ -172,7 +172,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь описывается система объектов в игре с физикой и возможностью взаимодействия с ними. Как объекты реагируют на физические силы и как они взаимодействуют с персонажами и другими объектами.
 
-![Object System](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Object%20System%20with%20Physics%20and%20Interaction.gif" width="830" height="470">
 
 **Implementation Details:**
 - Реализация системы физики для объектов
