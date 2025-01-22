@@ -31,8 +31,6 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.5 [Elevators](#415-elevators)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.6 [Crafting System](#416-crafting-system)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
-   &nbsp;&nbsp;&nbsp;4.2 [Additional Elements](#42-additional-elements)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Object Capture System (Bringing Object to a Connection/Installation Spot)](#421-object-capture-system)  
 
 5. [Transport and Resource Extraction](#5-transport-and-resource-extraction)  
    &nbsp;&nbsp;&nbsp;5.1 [Vehicles (Transport System, Current Implementation is Broken)](#51-vehicles-transport-system)  
@@ -272,21 +270,6 @@ This section describes the character interface that displays health, energy, and
 - Алгоритмы и интерфейс для исследований
 - Как исследования влияют на развитие базы
 - Интеграция с другими системами
-
----
-
-### 4.2 &nbsp;Additional Elements
----
-### 4.2.1 &nbsp;&nbsp;Object Capture System (Bringing Object to a Connection/Installation Spot)
-
-Здесь описывается система захвата объектов и их перемещения в нужные места для подключения или установки.
-
-![Object Capture System](path_to_image)
-
-**Implementation Details:**
-- Алгоритмы перемещения объектов в нужные места
-- Принципы захвата и установки объектов
-- Взаимодействие с другими системами базы
 
 ---
 
