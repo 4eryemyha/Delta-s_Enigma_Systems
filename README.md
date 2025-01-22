@@ -183,7 +183,7 @@ This section describes the character interface that displays health, energy, and
 ## 4. Base
 
 ### 4.1 &nbsp;Core Systems
-
+---
 ### 4.1.1 &nbsp;&nbsp;Door System
 
 Здесь рассматривается система дверей, включая их открытие, закрытие и взаимодействие с игроком и окружающей средой.
