@@ -33,7 +33,7 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
 
 5. [Transport and Resource Extraction](#5-transport-and-resource-extraction)  
-   &nbsp;&nbsp;&nbsp;5.1 [Vehicles](#51-vehicles-transport-system)  
+   &nbsp;&nbsp;&nbsp;5.1 [Vehicles](#51-vehicles)  
    &nbsp;&nbsp;&nbsp;5.2 [Drilling Site Search System](#52-drilling-site-search-system)  
    &nbsp;&nbsp;&nbsp;5.3 [Mineral Extraction System](#53-mineral-extraction-system)
 
