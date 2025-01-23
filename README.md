@@ -238,7 +238,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь описывается система лифтов, которая управляет перемещением между различными уровнями базы.
 
-![Elevators](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Elevators.gif" width="830" height="470">
 
 **Implementation Details:**
 - Принципы работы лифтов и управления ими
@@ -251,7 +251,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел посвящен системе крафта, где игроки могут создавать новые объекты, улучшать предметы и собирать ресурсы.
 
-![Crafting System](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Crafting%20System.gif" width="830" height="470">
 
 **Implementation Details:**
 - Механизмы создания и улучшения объектов
