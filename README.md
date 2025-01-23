@@ -321,7 +321,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь обсуждается использование материалов для создания больших ландшафтов в игре, включая текстуры и особенности их наложения на большие участки.
 
-![Landscape](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/LandscapeMaterial.gif" width="830" height="470">
 
 **Implementation Details:**
 - Технологии создания ландшафтов
@@ -334,7 +334,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел посвящен процедурному шейдеру, который используется для создания визуального стиля, похожего на мультфильмы, путем обработки текстур и освещения.
 
-![Procedural CellShader](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CellShader.gif" width="830" height="470">
 
 **Implementation Details:**
 - Разработка и применение процедурного шейдера
@@ -347,7 +347,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматриваются металлические материалы, которые применяются в шейдерах для создания эффекта блеска и отражений.
 
-![Metallic Materials](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Metallic%20Materials%20for%20CellShader.gif" width="830" height="470">
 
 **Implementation Details:**
 - Разработка металлических материалов для шейдера
@@ -360,7 +360,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел описывает материалы для растительности, которые реагируют на ветер, создавая эффект движения листвы и травы.
 
-![Materials for Foliage with Wind](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Materials%20for%20Foliage%20with%20Wind.gif" width="830" height="470">
 
 **Implementation Details:**
 - Реализация материалов для растительности с учетом ветра
@@ -373,7 +373,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь обсуждается создание материалов для камней с мхом, включая особенности текстур и визуальные эффекты.
 
-![Materials for Rocks with Moss](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Materials%20for%20Rocks%20with%20Moss.gif" width="830" height="470">
 
 **Implementation Details:**
 - Создание и применение материалов для камней
@@ -386,7 +386,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел объясняет, как создаются голографические материалы, которые могут быть использованы для создания уникальных объектов и эффектов в игре.
 
-![Holographic Material](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Holographic%20Material.gif" width="830" height="470">
 
 **Implementation Details:**
 - Применение голографических эффектов
