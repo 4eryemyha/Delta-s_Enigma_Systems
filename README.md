@@ -401,7 +401,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь объясняется, как создаются эффекты растворения для объектов, которые могут исчезать или растворяться по мере взаимодействия с ними.
 
-![Dissolve Effect](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Dissolve%20Effect.gif" width="830" height="470">
 
 **Implementation Details:**
 - Технологии и шейдеры для эффекта растворения
@@ -414,7 +414,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел описывает создание мультяшных взрывов с использованием системы Niagara и других визуальных эффектов.
 
-![Cartoon Explosion](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Cartoon%20Explosion.gif" width="830" height="470">
 
 **Implementation Details:**
 - Разработка мультяшных взрывов и их анимация
@@ -427,7 +427,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматривается создание мультяшного дыма с помощью Niagara, который используется в различных ситуациях, таких как взрывы или огонь.
 
-![Cartoon Smoke](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Cartoon%20Smoke.gif" width="830" height="470">
 
 **Implementation Details:**
 - Принципы создания мультяшного дыма
