@@ -264,7 +264,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматривается система исследований, которая позволяет игрокам открывать новые технологии и улучшать базу.
 
-![Research System](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/ResearchBase.gif" width="830" height="470">
 
 **Implementation Details:**
 - Алгоритмы и интерфейс для исследований
