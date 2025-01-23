@@ -292,7 +292,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел посвящен системе поиска месторождений для бурения. Описание алгоритмов и интерфейсов для поиска и выбора лучших мест для бурения.
 
-![Drilling Site Search](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Drilling%20Site%20Search%20System.gif" width="830" height="470">
 
 **Implementation Details:**
 - Алгоритмы поиска мест для бурения
@@ -305,7 +305,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь описывается система добычи минералов, включая способы сбора ресурсов, их переработку и использование в дальнейшем.
 
-![Mineral Extraction](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Mineral%20Extraction%20System.gif" width="830" height="470">
 
 **Implementation Details:**
 - Алгоритмы добычи минералов
