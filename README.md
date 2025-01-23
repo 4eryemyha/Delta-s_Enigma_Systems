@@ -45,7 +45,6 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.4 [Materials for Foliage with Wind](#614-materials-for-foliage-with-wind)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Materials for Rocks with Moss](#615-materials-for-rocks-with-moss)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.6 [Holographic Material](#616-holographic-material)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.7 [Particle Materials (Various)](#617-particle-materials-various)  
    &nbsp;&nbsp;&nbsp;6.2 [Niagara System](#62-niagara-system)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect for Objects](#621-dissolve-effect-for-objects)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 [Cartoon Explosion](#622-cartoon-explosion)  
@@ -396,32 +395,8 @@ This section describes the character interface that displays health, energy, and
 
 ---
 
-### 6.1.7 &nbsp;&nbsp;Particle Materials (Various)
-
-Здесь описываются различные материалы для частиц, используемые в эффектах, таких как дым, огонь и другие визуальные эффекты.
-
-![Particle Materials](path_to_image)
-
-**Implementation Details:**
-- Разнообразие материалов для частиц
-- Технологии создания эффектов частиц
-- Применение материалов в разных частях игры
-
----
-
 ### 6.2 &nbsp;Niagara System
-
-В этом разделе рассматривается система Niagara, которая используется для создания визуальных эффектов, таких как дым, огонь, взрывы и другие динамичные элементы.
-
-![Niagara System](path_to_image)
-
-**Implementation Details:**
-- Принципы работы системы Niagara
-- Разработка и настройка визуальных эффектов
-- Применение Niagara для создания эффектов частиц
-
 ---
-
 ### 6.2.1 &nbsp;&nbsp;Dissolve Effect for Objects
 
 Здесь объясняется, как создаются эффекты растворения для объектов, которые могут исчезать или растворяться по мере взаимодействия с ними.
