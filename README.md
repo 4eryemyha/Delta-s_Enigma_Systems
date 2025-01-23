@@ -58,7 +58,6 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;7.3 [Pause](#73-pause)  
    &nbsp;&nbsp;&nbsp;7.4 [Inventory](#74-inventory)  
    &nbsp;&nbsp;&nbsp;7.5 [Research](#75-research)  
-   &nbsp;&nbsp;&nbsp;7.6 [Character Interface](#76-character-interface)
 
 ---
 
@@ -457,7 +456,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел описывает главный экран меню игры, который служит центральным пунктом для навигации по различным функциям игры.
 
-![Main Menu](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Main%20Menu.gif" width="830" height="470">
 
 **Implementation Details:**
 - Структура и элементы главного меню
@@ -470,7 +469,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь описывается меню настроек, которое позволяет игрокам настроить параметры игры, такие как графика, звук и управление.
 
-![Settings](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Settings.gif" width="830" height="470">
 
 **Implementation Details:**
 - Опции настройки графики, звука и управления
@@ -483,7 +482,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел посвящен экрану паузы, который позволяет игроку остановить игру и получить доступ к различным опциям.
 
-![Pause](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Pause.gif" width="830" height="470">
 
 **Implementation Details:**
 - Взаимодействие с игровой логикой во время паузы
@@ -496,7 +495,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь рассматривается система инвентаря, которая позволяет игрокам собирать и управлять предметами внутри игры.
 
-![Inventory](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Inventory.gif" width="830" height="470">
 
 **Implementation Details:**
 - Структура и интерфейс инвентаря
@@ -515,14 +514,6 @@ This section describes the character interface that displays health, energy, and
 - Механизм исследования и разработки технологий
 - Влияние на прогресс в игре
 - Структура и интерфейс системы исследования
-
----
-
-### 7.6 &nbsp;Character Interface
-
-Здесь обсуждается интерфейс персонажа, который отображает здоровье, энергию и другие параметры, важные для игрового процесса.
-
-![Character Interface](path_to_image)
 
 **Implementation Details:**
 - Отображение статуса персонажа
