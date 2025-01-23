@@ -442,7 +442,7 @@ This section describes the character interface that displays health, energy, and
 
 Здесь обсуждаются различные виды растительности, такие как деревья, кустарники и трава, и материалы, которые используются для их создания и анимации.
 
-![Different Types of Foliage and Grass](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Different%20Types%20of%20Foliage%20and%20Grass.gif" width="830" height="470">
 
 **Implementation Details:**
 - Разнообразие растительности и типов травы
