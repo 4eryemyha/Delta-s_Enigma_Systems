@@ -33,9 +33,9 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.7 [Research System](#417-research-system)  
 
 5. [Transport and Resource Extraction](#5-transport-and-resource-extraction)  
-   &nbsp;&nbsp;&nbsp;5.1 [Vehicles (Transport System, Current Implementation is Broken)](#51-vehicles-transport-system)  
-   &nbsp;&nbsp;&nbsp;5.2 [Mineral Extraction System](#52-mineral-extraction-system)  
-   &nbsp;&nbsp;&nbsp;5.3 [Drilling Site Search System](#53-drilling-site-search-system) 
+   &nbsp;&nbsp;&nbsp;5.1 [Vehicles](#51-vehicles-transport-system)  
+   &nbsp;&nbsp;&nbsp;5.2 [Drilling Site Search System](#52-drilling-site-search-system)  
+   &nbsp;&nbsp;&nbsp;5.3 [Mineral Extraction System](#53-mineral-extraction-system)
 
 6. [Graphics and Materials](#6-graphics-and-materials)  
    &nbsp;&nbsp;&nbsp;6.1 [Materials](#61-materials)  
@@ -275,11 +275,11 @@ This section describes the character interface that displays health, energy, and
 
 ## 5. Transport and Resource Extraction
 
-### 5.1 &nbsp;Vehicles (Transport System, Current Implementation is Broken)
+### 5.1 &nbsp;Vehicles
 
 Этот раздел описывает систему транспортных средств, которая используется для перемещения ресурсов и персонажей по игровому миру. Также рассматриваются проблемы, возникшие в текущей реализации этой системы.
 
-![Vehicles](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Vehicles.gif" width="830" height="470">
 
 **Implementation Details:**
 - Механизмы управления транспортными средствами
@@ -288,20 +288,7 @@ This section describes the character interface that displays health, energy, and
 
 ---
 
-### 5.2 &nbsp;&nbsp;Mineral Extraction System
-
-Здесь описывается система добычи минералов, включая способы сбора ресурсов, их переработку и использование в дальнейшем.
-
-![Mineral Extraction](path_to_image)
-
-**Implementation Details:**
-- Алгоритмы добычи минералов
-- Взаимодействие с инструментами и объектами для добычи
-- Система переработки и использования добытых материалов
-
----
-
-### 5.3 &nbsp;&nbsp;Drilling Site Search System
+### 5.2 &nbsp;&nbsp;Drilling Site Search System
 
 Этот раздел посвящен системе поиска месторождений для бурения. Описание алгоритмов и интерфейсов для поиска и выбора лучших мест для бурения.
 
@@ -311,6 +298,19 @@ This section describes the character interface that displays health, energy, and
 - Алгоритмы поиска мест для бурения
 - Взаимодействие с картой мира и географическими данными
 - Оптимизация для повышения производительности
+
+---
+
+### 5.3 &nbsp;&nbsp;Mineral Extraction System
+
+Здесь описывается система добычи минералов, включая способы сбора ресурсов, их переработку и использование в дальнейшем.
+
+![Mineral Extraction](path_to_image)
+
+**Implementation Details:**
+- Алгоритмы добычи минералов
+- Взаимодействие с инструментами и объектами для добычи
+- Система переработки и использования добытых материалов
 
 ---
 
