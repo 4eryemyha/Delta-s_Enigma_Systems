@@ -556,7 +556,7 @@ This section describes the character interface that displays health, energy, and
 
 Этот раздел описывает систему исследования, которая позволяет игрокам развивать новые технологии и возможности в игре.
 
-![Research](path_to_image)
+<img src="https://github.com/4eryemyha/Media/blob/main/GIFs/ResearchUI.gif" width="830" height="470">
 
 **Implementation Details:**
 - Механизм исследования и разработки технологий
