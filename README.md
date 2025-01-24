@@ -88,7 +88,7 @@ Description of player movement, running, jumping, and camera control mechanics, 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif" width="830" height="470">
 
 **Implementation Details:**  
-- Smooth interaction with physics and objects during movement.
+- Smooth interaction with physics and objects during movement
 
 ---
 
