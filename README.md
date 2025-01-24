@@ -2,7 +2,7 @@
 
 This project is a game set on a mysterious planet where players must survive in extreme conditions. They will explore the world, interact with objects, and battle dangerous creatures. The focus is on high-quality graphics, sound effects, and intuitive controls to create an immersive and engaging gameplay experience.
 
-[Delta's Enigma Systems RU](https://github.com/4eryemyha/Delta-s_Enigma_Systems/blob/main/README.ru.md) — a link to file in Russian.
+[Delta's Enigma Systems RU](https://github.com/4eryemyha/Delta-s_Enigma_Systems/blob/main/READMEru.md) — a link to file in Russian.
 
 ### Project Link
 [Delta's Enigma](https://github.com/4eryemyha/Delta-s_Enigma) — a project file link (not finished).
