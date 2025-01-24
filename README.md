@@ -12,7 +12,7 @@ This project is a game set on a mysterious planet where players must survive in 
 1. [Character](#1-character)  
    &nbsp;&nbsp;&nbsp;1.1 [Movement](#11-movement)  
    &nbsp;&nbsp;&nbsp;1.2 [Input System: KeyMapping for Key Customization](#12-input-system-keymapping-for-key-customization)  
-   &nbsp;&nbsp;&nbsp;1.3 [Character Interface: Displaying Health, Energy, and Other Parameters](#13-character-interface-displaying-health-energy-and-other-parameters)  
+   &nbsp;&nbsp;&nbsp;1.3 [Character Interface](#13-character-interface)   
 
 2. [Animations and AI](#2-animations-and-ai)  
    &nbsp;&nbsp;&nbsp;2.1 [Flying Dragons](#21-flying-dragons)  
@@ -83,7 +83,7 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 ### 1.1 &nbsp;Movement
 
-A detailed description of how the player moves, runs, jumps, and controls the camera. This includes the mechanics of movement speed control, jumping behavior, and camera interaction.
+Description of player movement, running, jumping, and camera control mechanics, including movement speed control, jumping behavior, and camera interaction.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif" width="830" height="470">
 
@@ -94,27 +94,24 @@ A detailed description of how the player moves, runs, jumps, and controls the ca
 
 ### 1.2 &nbsp;Input System: KeyMapping for Key Customization
 
-Explains the input system that allows players to re-map keys for character control to suit their preferences.
+Input system allowing players to re-map keys for character control to suit their preferences.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/PHOTOs/KeyMapping.png" width="830" height="470">
 
 **Implementation Details:**
-- KeyMapping system setup and structure
-- Configuration files and user interface for key customization
-- Challenges encountered during implementation
+- KeyMapping system setup and structure (Optimized code)
 
 ---
 
-### 1.3 &nbsp;Character Interface: Displaying Health, Energy, and Other Parameters
+### 1.3 &nbsp;Character Interface
 
-This section describes the character interface that displays health, energy, and other important metrics.
+Character interface displaying health, energy, and other important metrics.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interface.gif" width="830" height="470">
 
 **Implementation Details:**
-- Design of health, energy, and other parameter indicators
-- How these parameters update dynamically during gameplay
-- Technical considerations in keeping the interface responsive and readable
+- Custom design of health, energy, and other parameter indicators
+- Interface reacts to external factors dynamically
 
 ---
 
@@ -122,27 +119,26 @@ This section describes the character interface that displays health, energy, and
 
 ### 2.1 &nbsp;Flying Dragons
 
-Этот раздел фокусируется на анимации летающих драконов, их движениях в воздухе и взаимодействиях с другими объектами.
+Flying dragons animation, their movements in the air, and AI behavior.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Dragons.gif" width="830" height="470">
 
 **Implementation Details:**
-- Динамическое управление движением драконов в воздухе
-- Применение физики для реалистичных полетов
-- Взаимодействие с окружающим миром
+- Procedural animation for dynamic dragon movement in the air
+- Procedurally adjustable size and shape of the dragon
 
 ---
 
 ### 2.2 &nbsp;Spiders
 
-Здесь рассматривается анимация для пауков, их движения по различным поверхностям и реакции на поведение игрока.
+Animation for spiders, their movement across different surfaces, and AI behavior.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Spiders.gif" width="830" height="470">
 
 **Implementation Details:**
-- Специфика анимаций для многоногих существ
-- Реализация лазания по вертикальным поверхностям
-- Интерактивность с игроком и миром
+- Procedural animation with IK and skeleton for multi-legged creatures
+- Adaptation to any spider size for climbing on vertical surfaces
+- Expanded area for AI movement interaction
 
 ---
 
@@ -150,27 +146,24 @@ This section describes the character interface that displays health, energy, and
 
 ### 3.1 &nbsp;Character Interaction with the World via Interfaces
 
-В этом разделе рассматриваются способы, которыми персонаж взаимодействует с миром игры через различные интерфейсы, включая взаимодействие с объектами, использование предметов и активацию механизмов.
+Ways the character interacts with the game world through various interfaces, including interacting with objects, using items, and activating mechanisms.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interaction%20with%20the%20World.gif" width="830" height="470">
 
 **Implementation Details:**
-- Способы взаимодействия персонажа с миром
-- Реализация интерфейсов для различных типов объектов
-- Технические аспекты обработки пользовательского ввода и обратной связи
+- Quick creation of any object and addition of interaction system
 
 ---
 
 ### 3.2 &nbsp;&nbsp;Object System with Physics and Interaction
 
-Здесь описывается система объектов в игре с физикой и возможностью взаимодействия с ними. Как объекты реагируют на физические силы и как они взаимодействуют с персонажами и другими объектами.
+Object system with physics and interaction capabilities. How objects respond to physical forces and interact with characters and other objects.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Object%20System%20with%20Physics%20and%20Interaction.gif" width="830" height="470">
 
 **Implementation Details:**
-- Реализация системы физики для объектов
-- Детали взаимодействия объектов с персонажами и окружающей средой
-- Проблемы при учете взаимодействия с разными типами объектов
+- Quick addition of any object with full functionality and physics
+- Highly optimized code for object interaction with characters and the environment
 
 ---
 
@@ -180,79 +173,69 @@ This section describes the character interface that displays health, energy, and
 ---
 ### 4.1.1 &nbsp;&nbsp;Door System
 
-Здесь рассматривается система дверей, включая их открытие, закрытие и взаимодействие с игроком и окружающей средой.
+Door system, including opening, closing, and interaction with the player and the environment.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Door%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Реализация механизмов открытия и закрытия дверей
-- Интерактивность дверей с персонажем
-- Взаимодействие с другими системами
+- Procedural sound for door opening and closing mechanisms
 
 ---
 
 ### 4.1.2 &nbsp;&nbsp;Rooms
 
-Этот раздел описывает систему комнат на базе, их организацию и взаимодействие с другими объектами и системами.
+Room system based on the base and its organization.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Rooms.gif" width="830" height="470">
 
 **Implementation Details:**
-- Конфигурация комнат и объектов внутри них
-- Принципы динамического изменения комнат
-- Система обеспечения функциональности каждой комнаты
+- Base building system, allowing the assembly of a base from rooms
 
 ---
 
 ### 4.1.3 &nbsp;&nbsp;Lighting
 
-Здесь описывается система освещения на базе, которая управляет уровнем яркости, состоянием и режимами освещения в разных областях базы.
+Lighting system for controlling brightness and switching lights on and off in different areas.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Light.gif" width="830" height="470">
 
 **Implementation Details:**
-- Управление освещением в различных частях базы
-- Реализация динамических эффектов освещения
-- Оптимизация для производительности
+- Modular lighting system with quick implementation
 
 ---
 
 ### 4.1.4 &nbsp;&nbsp;Oxygen System
 
-Этот раздел фокусируется на системе кислорода, необходимой для поддержания жизни на базе. Объясняются процессы, регулирующие уровень кислорода и его распределение.
+Oxygen system for sustaining life on the base, regulating oxygen levels and distribution processes.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Oxygen%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Управление уровнем кислорода
-- Система мониторинга и контроля
-- Взаимодействие с другими жизненно важными системами
+- Oxygen storage on the base with visual representation
+- Mineral processing system to generate oxygen on the base
 
 ---
 
 ### 4.1.5 &nbsp;&nbsp;Elevators
 
-Здесь описывается система лифтов, которая управляет перемещением между различными уровнями базы.
+Elevator system for managing movement between different levels of the base.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Elevators.gif" width="830" height="470">
 
 **Implementation Details:**
-- Принципы работы лифтов и управления ими
-- Взаимодействие с другими системами
-- Особенности анимации и механизма лифтов
+- Use of the door system for elevator operation
 
 ---
 
 ### 4.1.6 &nbsp;&nbsp;Crafting System
 
-Этот раздел посвящен системе крафта, где игроки могут создавать новые объекты, улучшать предметы и собирать ресурсы.
+Crafting system for creating new objects using resources at a special station.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Crafting%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Механизмы создания и улучшения объектов
-- Система ресурсов и их использование
-- Балансировка и настройки интерфейса крафта
+- Visual representation with materials and particles
+- Complex crafting tree system linked to the research system
 
 ---
 
