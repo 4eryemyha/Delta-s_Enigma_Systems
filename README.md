@@ -1,4 +1,4 @@
-# Delta's Enigma
+# Delta's Enigma Systems
 
 This project is a game set on a mysterious planet where players must survive in extreme conditions. They will explore the world, interact with objects, and battle dangerous creatures. The focus is on high-quality graphics, sound effects, and intuitive controls to create an immersive and engaging gameplay experience.
 
