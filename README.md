@@ -41,12 +41,12 @@ This project is a game set on a mysterious planet where players must survive in 
    &nbsp;&nbsp;&nbsp;6.1 [Materials](#61-materials)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.1 [Landscape (Large Landscape)](#611-landscape-large-landscape)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.2 [Procedural CellShader](#612-procedural-cellshader)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.3 [Metallic Materials for CellShader](#613-metallic-materials-for-cellshader)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.4 [Materials for Foliage with Wind](#614-materials-for-foliage-with-wind)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Materials for Rocks with Moss](#615-materials-for-rocks-with-moss)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.3 [Metallic Material for CellShader](#613-metallic-material-for-cellshader)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.4 [Material for Foliage with Wind](#614-material-for-foliage-with-wind)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.5 [Material for Rocks with Moss](#615-material-for-rocks-with-moss)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.6 [Holographic Material](#616-holographic-material)  
    &nbsp;&nbsp;&nbsp;6.2 [Niagara System](#62-niagara-system)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect for Objects](#621-dissolve-effect-for-objects)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 [Dissolve Effect](#621-dissolve-effect)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 [Cartoon Explosion](#622-cartoon-explosion)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.3 [Cartoon Smoke](#623-cartoon-smoke)  
    &nbsp;&nbsp;&nbsp;6.3 [Landscape and Environment](#63-landscape-and-environment)  
@@ -241,14 +241,12 @@ Crafting system for creating new objects using resources at a special station.
 
 ### 4.1.7 &nbsp;&nbsp;Research System
 
-Здесь рассматривается система исследований, которая позволяет игрокам открывать новые технологии и улучшать базу.
+Research system that allows players to unlock new technologies and craft items.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/ResearchBase.gif" width="830" height="470">
 
 **Implementation Details:**
-- Алгоритмы и интерфейс для исследований
-- Как исследования влияют на развитие базы
-- Интеграция с другими системами
+- None
 
 ---
 
@@ -256,40 +254,35 @@ Crafting system for creating new objects using resources at a special station.
 
 ### 5.1 &nbsp;Vehicles
 
-Этот раздел описывает систему транспортных средств, которая используется для перемещения ресурсов и персонажей по игровому миру. Также рассматриваются проблемы, возникшие в текущей реализации этой системы.
+Vehicle system used for character movement across the game world.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Vehicles.gif" width="830" height="470">
 
 **Implementation Details:**
-- Механизмы управления транспортными средствами
-- Текущие проблемы в реализации транспортной системы
-- Планы по улучшению и исправлению багов
+- Levitation-based vehicle system
+- Multiple types of vehicles
 
 ---
 
 ### 5.2 &nbsp;&nbsp;Drilling Site Search System
 
-Этот раздел посвящен системе поиска месторождений для бурения. Описание алгоритмов и интерфейсов для поиска и выбора лучших мест для бурения.
+Drilling site search system.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Drilling%20Site%20Search%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Алгоритмы поиска мест для бурения
-- Взаимодействие с картой мира и географическими данными
-- Оптимизация для повышения производительности
+- Search using a specific item
 
 ---
 
 ### 5.3 &nbsp;&nbsp;Mineral Extraction System
 
-Здесь описывается система добычи минералов, включая способы сбора ресурсов, их переработку и использование в дальнейшем.
+Mineral extraction system, where a drill arrives and extracts minerals for collection, processing, and further use.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Mineral%20Extraction%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Алгоритмы добычи минералов
-- Взаимодействие с инструментами и объектами для добычи
-- Система переработки и использования добытых материалов
+- Procedural animation for the entire drill
 
 ---
 
@@ -299,120 +292,105 @@ Crafting system for creating new objects using resources at a special station.
 ---
 ### 6.1.1 &nbsp;&nbsp;Landscape (Large Landscape)
 
-Здесь обсуждается использование материалов для создания больших ландшафтов в игре, включая текстуры и особенности их наложения на большие участки.
+Material system for creating large landscapes, including layers, textures, and their adaptation across vast areas.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/LandscapeMaterial.gif" width="830" height="470">
 
 **Implementation Details:**
-- Технологии создания ландшафтов
-- Использование текстур и материалов на больших пространствах
-- Оптимизация для производительности
+- Use of virtual texture system for landscape creation
+- Grass system for large areas
+- Fine-tuning for performance optimization
 
 ---
 
 ### 6.1.2 &nbsp;&nbsp;Procedural CellShader
 
-Этот раздел посвящен процедурному шейдеру, который используется для создания визуального стиля, похожего на мультфильмы, путем обработки текстур и освещения.
+Procedural shader for creating a cartoon-like visual style through texture and lighting processing.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CellShader.gif" width="830" height="470">
 
 **Implementation Details:**
-- Разработка и применение процедурного шейдера
-- Влияние на внешний вид объектов
-- Оптимизация и производительность
+- Fine-tuning of all layers.
+- All issues related to external effects resolved.
 
 ---
 
-### 6.1.3 &nbsp;&nbsp;Metallic Materials for CellShader
+### 6.1.3 &nbsp;&nbsp;Metallic Material for CellShader
 
-Здесь рассматриваются металлические материалы, которые применяются в шейдерах для создания эффекта блеска и отражений.
+Metallic material used in shaders to create shine and reflection effects. Only one material is used.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Metallic%20Materials%20for%20CellShader.gif" width="830" height="470">
 
 **Implementation Details:**
-- Разработка металлических материалов для шейдера
-- Взаимодействие с освещением и отражениями
-- Применение в различных объектах
+- Development of metallic materials for cellshader.
 
 ---
 
-### 6.1.4 &nbsp;&nbsp;Materials for Foliage with Wind
+### 6.1.4 &nbsp;&nbsp;Material for Foliage with Wind
 
-Этот раздел описывает материалы для растительности, которые реагируют на ветер, создавая эффект движения листвы и травы.
+Vegetation materials reacting to wind, creating foliage and grass movement effects.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Materials%20for%20Foliage%20with%20Wind.gif" width="830" height="470">
 
 **Implementation Details:**
-- Реализация материалов для растительности с учетом ветра
-- Использование шейдеров для имитации движения
-- Технические аспекты и производительность
+- Implementation of vegetation materials with adjustable wind strength and direction.
 
 ---
 
-### 6.1.5 &nbsp;&nbsp;Materials for Rocks with Moss
+### 6.1.5 &nbsp;&nbsp;Material for Rocks with Moss
 
-Здесь обсуждается создание материалов для камней с мхом, включая особенности текстур и визуальные эффекты.
+Materials for procedural moss on rocks, including texture details and visual effects.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Materials%20for%20Rocks%20with%20Moss.gif" width="830" height="470">
 
 **Implementation Details:**
-- Создание и применение материалов для камней
-- Взаимодействие с окружающей средой и растительностью
-- Текстуры и эффекты для реалистичного вида
+- Fine-tuning of various material parameters.
 
 ---
 
 ### 6.1.6 &nbsp;&nbsp;Holographic Material
 
-Этот раздел объясняет, как создаются голографические материалы, которые могут быть использованы для создания уникальных объектов и эффектов в игре.
+Holographic material for unique objects and effects in the game.  
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Holographic%20Material.gif" width="830" height="470">
 
 **Implementation Details:**
-- Применение голографических эффектов
-- Реализация шейдеров и текстур
-- Взаимодействие с другими объектами в игре
+- Fine-tuning of holographic material.
 
 ---
 
 ### 6.2 &nbsp;Niagara System
 ---
-### 6.2.1 &nbsp;&nbsp;Dissolve Effect for Objects
+### 6.2.1 &nbsp;&nbsp;Dissolve Effect
 
-Здесь объясняется, как создаются эффекты растворения для объектов, которые могут исчезать или растворяться по мере взаимодействия с ними.
+Dissolve effect for objects that can disappear or dissolve based on interaction.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Dissolve%20Effect.gif" width="830" height="470">
 
 **Implementation Details:**
-- Технологии и шейдеры для эффекта растворения
-- Реализация с учетом освещения и физики
-- Применение в различных частях игры
+- Fine-tuning of dissolution effects.
 
 ---
 
 ### 6.2.2 &nbsp;&nbsp;Cartoon Explosion
 
-Этот раздел описывает создание мультяшных взрывов с использованием системы Niagara и других визуальных эффектов.
+Creation of cartoon-style explosions using the Niagara system.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Cartoon%20Explosion.gif" width="830" height="470">
 
 **Implementation Details:**
-- Разработка мультяшных взрывов и их анимация
-- Применение системы Niagara для создания эффектов
-- Влияние на игровой процесс и визуальные эффекты
+- Custom VFX effect with fine-tuning for cartoon-style explosions.
 
 ---
 
 ### 6.2.3 &nbsp;&nbsp;Cartoon Smoke
 
-Здесь рассматривается создание мультяшного дыма с помощью Niagara, который используется в различных ситуациях, таких как взрывы или огонь.
+Creation of cartoon-style smoke using the Niagara system, used in various situations like explosions or fire.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Cartoon%20Smoke.gif" width="830" height="470">
 
 **Implementation Details:**
-- Принципы создания мультяшного дыма
-- Реализация с учетом взаимодействия с другими эффектами
-- Применение в различных частях игры
+- Simplicity and optimization for cartoon-style smoke.
 
 ---
 
@@ -420,14 +398,12 @@ Crafting system for creating new objects using resources at a special station.
 ---
 ### 6.3.1 &nbsp;&nbsp;Different Types of Foliage and Grass
 
-Здесь обсуждаются различные виды растительности, такие как деревья, кустарники и трава, и материалы, которые используются для их создания и анимации.
+Various types of vegetation, such as trees, shrubs, and grass, and the materials used for their creation and animation.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Different%20Types%20of%20Foliage%20and%20Grass.gif" width="830" height="470">
 
 **Implementation Details:**
-- Разнообразие растительности и типов травы
-- Применение шейдеров для растительности
-- Взаимодействие с окружающим миром
+- Interaction capabilities with certain types of vegetation.
 
 ---
 
@@ -435,63 +411,58 @@ Crafting system for creating new objects using resources at a special station.
 
 ### 7.1 &nbsp;Main Menu
 
-Этот раздел описывает главный экран меню игры, который служит центральным пунктом для навигации по различным функциям игры.
+The main menu screen of the game, serving as the central hub for navigating various game features.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Main%20Menu.gif" width="830" height="470">
 
 **Implementation Details:**
-- Структура и элементы главного меню
-- Взаимодействие с различными разделами игры
-- Анимация и переходы
+- Custom animations created specifically for this project.
+- Custom design created specifically for this project.
 
 ---
 
 ### 7.2 &nbsp;Settings
 
-Здесь описывается меню настроек, которое позволяет игрокам настроить параметры игры, такие как графика, звук и управление.
+Settings menu allowing players to adjust game parameters such as graphics, sound, and controls.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Settings.gif" width="830" height="470">
 
 **Implementation Details:**
-- Опции настройки графики, звука и управления
-- Использование конфигурационных файлов
-- Влияние изменений на игровой процесс
+- Modular system for creating settings.
+- Custom visuals and animations for the settings menu.
+- Full saving of player settings.
 
 ---
 
 ### 7.3 &nbsp;Pause
 
-Этот раздел посвящен экрану паузы, который позволяет игроку остановить игру и получить доступ к различным опциям.
+Pause screen allowing the player to stop the game and access various options.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Pause.gif" width="830" height="470">
 
 **Implementation Details:**
-- Взаимодействие с игровой логикой во время паузы
-- Доступные опции в меню паузы
-- Влияние на производительность игры
+- None
 
 ---
 
 ### 7.4 &nbsp;Inventory
 
-Здесь рассматривается система инвентаря, которая позволяет игрокам собирать и управлять предметами внутри игры.
+Inventory system allowing players to collect and manage items within the game.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Inventory.gif" width="830" height="470">
 
 **Implementation Details:**
-- Структура и интерфейс инвентаря
-- Система хранения и сортировки предметов
-- Взаимодействие с другими системами игры
+- Custom visuals and animations for the inventory system.
+- All test cases and errors resolved and accounted for.
 
 ---
 
 ### 7.5 &nbsp;Research
 
-Этот раздел описывает систему исследования, которая позволяет игрокам развивать новые технологии и возможности в игре.
+Research system allowing players to develop new technologies and capabilities within the game.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/ResearchUI.gif" width="830" height="470">
 
 **Implementation Details:**
-- Механизм исследования и разработки технологий
-- Влияние на прогресс в игре
-- Структура и интерфейс системы исследования
+- Custom visuals and animations for the research system.
+- Modular system for creating research trees.
