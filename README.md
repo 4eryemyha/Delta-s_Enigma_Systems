@@ -10,7 +10,7 @@ This project is a game set on a mysterious planet where players must survive in 
 # Table of Contents
 
 1. [Character](#1-character)  
-   &nbsp;&nbsp;&nbsp;1.1 [Walking, Running, Jumping, General Control](#11-walking-running-jumping-general-control)  
+   &nbsp;&nbsp;&nbsp;1.1 [Movement](#11-movement)  
    &nbsp;&nbsp;&nbsp;1.2 [Input System: KeyMapping for Key Customization](#12-input-system-keymapping-for-key-customization)  
    &nbsp;&nbsp;&nbsp;1.3 [Character Interface: Displaying Health, Energy, and Other Parameters](#13-character-interface-displaying-health-energy-and-other-parameters)  
 
@@ -81,16 +81,14 @@ Every element of the game, from the inventory system to the dynamic enemies, is 
 
 ## 1. Character
 
-### 1.1 &nbsp;Walking, Running, Jumping, General Control
+### 1.1 &nbsp;Movement
 
-A detailed description of how the player moves, runs, jumps, and interacts with the world. This includes the mechanics of how walking and running speeds are controlled, how jumping works, and any general movement functionality.
+A detailed description of how the player moves, runs, jumps, and controls the camera. This includes the mechanics of movement speed control, jumping behavior, and camera interaction.
 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif" width="830" height="470">
 
-**Implementation Details:**
-- Character control system with defined key mappings
-- Response to user inputs and environmental factors
-- System for speed adjustment and transition between movement states
+**Implementation Details:**  
+- Smooth interaction with physics and objects during movement.
 
 ---
 
