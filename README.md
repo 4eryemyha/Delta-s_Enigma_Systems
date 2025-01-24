@@ -88,7 +88,7 @@ Description of player movement, running, jumping, and camera control mechanics, 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/CharacterMovement.gif" width="830" height="470">
 
 **Implementation Details:**  
-- Smooth interaction with physics and objects during movement
+- Smooth interaction with physics and objects during movement.
 
 ---
 
@@ -99,7 +99,7 @@ Input system allowing players to re-map keys for character control to suit their
 <img src="https://github.com/4eryemyha/Media/blob/main/PHOTOs/KeyMapping.png" width="830" height="470">
 
 **Implementation Details:**
-- KeyMapping system setup and structure (Optimized code)
+- KeyMapping system setup and structure (Optimized code).
 
 ---
 
@@ -110,8 +110,8 @@ Character interface displaying health, energy, and other important metrics.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interface.gif" width="830" height="470">
 
 **Implementation Details:**
-- Custom design of health, energy, and other parameter indicators
-- Interface reacts to external factors dynamically
+- Custom design of health, energy, and other parameter indicators.
+- Interface reacts to external factors dynamically.
 
 ---
 
@@ -124,8 +124,8 @@ Flying dragons animation, their movements in the air, and AI behavior.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Dragons.gif" width="830" height="470">
 
 **Implementation Details:**
-- Procedural animation for dynamic dragon movement in the air
-- Procedurally adjustable size and shape of the dragon
+- Procedural animation for dynamic dragon movement in the air.
+- Procedurally adjustable size and shape of the dragon.
 
 ---
 
@@ -136,9 +136,9 @@ Animation for spiders, their movement across different surfaces, and AI behavior
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Spiders.gif" width="830" height="470">
 
 **Implementation Details:**
-- Procedural animation with IK and skeleton for multi-legged creatures
-- Adaptation to any spider size for climbing on vertical surfaces
-- Expanded area for AI movement interaction
+- Procedural animation with IK and skeleton for multi-legged creatures.
+- Adaptation to any spider size for climbing on vertical surfaces.
+- Expanded area for AI movement interaction.
 
 ---
 
@@ -151,7 +151,7 @@ Ways the character interacts with the game world through various interfaces, inc
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Character%20Interaction%20with%20the%20World.gif" width="830" height="470">
 
 **Implementation Details:**
-- Quick creation of any object and addition of interaction system
+- Quick creation of any object and addition of interaction system.
 
 ---
 
@@ -162,8 +162,8 @@ Object system with physics and interaction capabilities. How objects respond to 
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Object%20System%20with%20Physics%20and%20Interaction.gif" width="830" height="470">
 
 **Implementation Details:**
-- Quick addition of any object with full functionality and physics
-- Highly optimized code for object interaction with characters and the environment
+- Quick addition of any object with full functionality and physics.
+- Highly optimized code for object interaction with characters and the environment.
 
 ---
 
@@ -178,7 +178,7 @@ Door system, including opening, closing, and interaction with the player and the
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Door%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Procedural sound for door opening and closing mechanisms
+- Procedural sound for door opening and closing mechanisms.
 
 ---
 
@@ -189,7 +189,7 @@ Room system based on the base and its organization.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Rooms.gif" width="830" height="470">
 
 **Implementation Details:**
-- Base building system, allowing the assembly of a base from rooms
+- Base building system, allowing the assembly of a base from rooms.
 
 ---
 
@@ -200,7 +200,7 @@ Lighting system for controlling brightness and switching lights on and off in di
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Light.gif" width="830" height="470">
 
 **Implementation Details:**
-- Modular lighting system with quick implementation
+- Modular lighting system with quick implementation.
 
 ---
 
@@ -211,8 +211,8 @@ Oxygen system for sustaining life on the base, regulating oxygen levels and dist
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Oxygen%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Oxygen storage on the base with visual representation
-- Mineral processing system to generate oxygen on the base
+- Oxygen storage on the base with visual representation.
+- Mineral processing system to generate oxygen on the base.
 
 ---
 
@@ -223,7 +223,7 @@ Elevator system for managing movement between different levels of the base.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Elevators.gif" width="830" height="470">
 
 **Implementation Details:**
-- Use of the door system for elevator operation
+- Use of the door system for elevator operation.
 
 ---
 
@@ -234,8 +234,8 @@ Crafting system for creating new objects using resources at a special station.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Crafting%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Visual representation with materials and particles
-- Complex crafting tree system linked to the research system
+- Visual representation with materials and particles.
+- Complex crafting tree system linked to the research system.
 
 ---
 
@@ -246,7 +246,7 @@ Research system that allows players to unlock new technologies and craft items.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/ResearchBase.gif" width="830" height="470">
 
 **Implementation Details:**
-- None
+- None.
 
 ---
 
@@ -259,8 +259,8 @@ Vehicle system used for character movement across the game world.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Vehicles.gif" width="830" height="470">
 
 **Implementation Details:**
-- Levitation-based vehicle system
-- Multiple types of vehicles
+- Levitation-based vehicle system.
+- Multiple types of vehicles.
 
 ---
 
@@ -271,7 +271,7 @@ Drilling site search system.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Drilling%20Site%20Search%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Search using a specific item
+- Search using a specific item.
 
 ---
 
@@ -282,7 +282,7 @@ Mineral extraction system, where a drill arrives and extracts minerals for colle
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Mineral%20Extraction%20System.gif" width="830" height="470">
 
 **Implementation Details:**
-- Procedural animation for the entire drill
+- Procedural animation for the entire drill.
 
 ---
 
@@ -297,9 +297,9 @@ Material system for creating large landscapes, including layers, textures, and t
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/LandscapeMaterial.gif" width="830" height="470">
 
 **Implementation Details:**
-- Use of virtual texture system for landscape creation
-- Grass system for large areas
-- Fine-tuning for performance optimization
+- Use of virtual texture system for landscape creation.
+- Grass system for large areas.
+- Fine-tuning for performance optimization.
 
 ---
 
@@ -441,7 +441,7 @@ Pause screen allowing the player to stop the game and access various options.
 <img src="https://github.com/4eryemyha/Media/blob/main/GIFs/Pause.gif" width="830" height="470">
 
 **Implementation Details:**
-- None
+- None.
 
 ---
 
