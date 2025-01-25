@@ -5,7 +5,7 @@ This project is a game set on a mysterious planet where players must survive in 
 [Delta's Enigma Systems RU](https://github.com/4eryemyha/Delta-s_Enigma_Systems/blob/main/READMEru.md) — a link to file in Russian.
 
 ### Project Link
-[Delta's Enigma](https://github.com/4eryemyha/Delta-s_Enigma) — a project file link (not finished).
+[Delta's Enigma](https://github.com/4eryemyha/Delta-s_Enigma) — a project file link **(not finished)**.
 
 ---
 
